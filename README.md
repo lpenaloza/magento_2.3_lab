@@ -1,8 +1,6 @@
 # Modulo básico, formulario de configuración en Magento 2.3
 
-Ejemplo: WebAPI para un módulo que proporcione acceso a elementos de una lista.
-
-http://dominio/rest/V1/mastering
+Grid de administración utilizando UI Components Library de la interfaz de usuario.
 
 - Modifcar namespace y nombre del módulo
 - Comandos:

@@ -1,11 +1,11 @@
 <?php
 
-namespace Mastering\LabModule\Controller\Adminhtml\Index;
+namespace Mastering\LabModule\Controller\Adminhtml\Item;
 
 use Magento\Backend\App\Action;
 use Magento\Framework\Controller\ResultFactory;
 
-class Index extends Action
+class NewAction extends Action
 {
   public function execute()
   {

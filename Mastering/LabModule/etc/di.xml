@@ -10,4 +10,18 @@
   </type>
   <preference for="Mastering\LabModule\Api\Data\ItemInterface" type="Mastering\LabModule\Model\Item" />
   <preference for="Mastering\LabModule\Api\ItemRepositoryInterface" type="Mastering\LabModule\Model\ItemRepository" />
+  <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+    <arguments>
+      <argument name="collections" xsi:type="array">
+        <item name="mastering_items_grid_data_source" xsi:type="string">Mastering\LabModule\Model\ResourceModel\Item\Grid\Collection</item>
+      </argument>
+    </arguments>
+  </type>
+  <virtualType name="Magento\Sales\Model\ResourceModel\Order\Grid">
+    <arguments>
+      <argument name="columns" xsi:type="array">
+        <item name="base_tax_amount" xsi:type="string">sales_order.base_tax_amount</item>
+      </argument>
+    </arguments>
+  </virtualType>
 </config>
