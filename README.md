@@ -1,4 +1,6 @@
 # MAGENTO 2.3
-Magento 2.3: Repositorio para hacer pruebas y practicas de magento 
+Módulo básico de magento para hacer practicas, 
+el nombre del módulo es labModule.
+
 
 
