@@ -3,7 +3,13 @@
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
   <body>
     <referenceContainer name="content">
-      <block name="mastering_hello" class="Mastering\LabModule\Block\Hello" template="hello.phtml" />
+      <block name="mastering_hello" class="Mastering\LabModule\Block\Hello" template="hello.phtml" >
+        <arguments>
+          <argument name="label" xsi:type="string">The Label</argument>
+          <argument name="test" xsi:type="string">TEST</argument>
+        </arguments>
+      </block>
     </referenceContainer>
+    <referenceContainer name="form.subscribe" remove="true" />
   </body>
 </page>

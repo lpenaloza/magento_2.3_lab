@@ -1,7 +1,8 @@
 <?php
 /** @var \Mastering\LabModule\Block\Hello $block */
 ?>
-
+<?php echo $block->getLabel(); ?>
+<?php echo $block->getTest(); ?>
 <?php foreach ($block->getItems() as $item) : ?>
 <p>
   <?php echo $item->getName(); ?>: <?php echo $item->getDescription(); ?>
